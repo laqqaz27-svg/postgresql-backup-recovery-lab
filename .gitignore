@@ -1,0 +1,10 @@
+# PostgreSQL backups and WAL archives
+backups/
+
+# Environment secrets
+.env
+.env.*
+
+# Temporary files
+*.log
+.DS_Store
