@@ -1,0 +1,7 @@
+# Example settings used for the primary server in this lab.
+# These settings are passed through the Docker Compose command in compose.yaml.
+wal_level = replica
+archive_mode = on
+archive_command = 'cp %p /backups/wal/%f'
+max_wal_senders = 10
+listen_addresses = '*'
