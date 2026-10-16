@@ -1,0 +1,3 @@
+# Example pg_hba.conf entry used by this lab.
+# The replicator role password is configured separately and must not be committed.
+host replication replicator all scram-sha-256
